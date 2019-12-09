@@ -1,5 +1,4 @@
-  
-@echo off
+ @echo off
 git config --global user.email "chyhhwen@gmail.com"
 git config --global user.name "chyhhwen"
 git remote add origin https://github.com/creamgod45/skill-games.git
