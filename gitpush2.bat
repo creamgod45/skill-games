@@ -5,7 +5,6 @@ git config --global user.name "chyhhwen"
 git remote add origin https://github.com/creamgod45/skill-games.git
 git add router
 git add index.php
-git add gitpush.bat
 git add gitpush2.bat
 git add .htaccess
 git add mysql
