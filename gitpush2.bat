@@ -11,5 +11,5 @@ git add .htaccess
 git add mysql
 git add docs
 git add LICENSE
-git commit -m "update(1.0)"
+git commit -m "chyhhwen => update(1.0)"
 git push -u origin master
