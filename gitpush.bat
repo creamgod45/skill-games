@@ -9,5 +9,6 @@ git add .htaccess
 git add mysql
 git add docs
 git add LICENSE
+git add README.md
 git commit -m "creamgod45 => update(1.0)"
 git push -u origin master
