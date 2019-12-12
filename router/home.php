@@ -6,46 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./router/assets/css/main.css" >
     <title><?php echo $title;?></title>
-    <style>
-        #grad
-        {
-            width:600px;
-            height:580px;
-            background-color:red;
-            background-image: linear-gradient(rgb(100,0,0),rgb(255,0,0));
-        }  
-    </style>
 </head>
-<body>
-    <form class="form" action="" method="POST">
-        <table width="300" height="200">
-            <tr>
-                <td align="center">
+<body style="margin: 0px;">
+    <form action="" method="POST" class="box">
+
+        <div class="form">
+           <div class="head " style="background-color:rgb(175, 175, 175)">
                     
-                    <div id="grad" width=800px height=500px>
-                            <div><h1><font color=lightblue >照片輪播</font></h1></div>
-                            <img id="img" src="./router/assets/images/skill01.jpg" width=500px height=450px>                           
-                            <h1>美麗C世界</h1>
+            </div>
+            <div class="put" style="background-color:rgb(175, 175, 175)">
+                    <span>表達文章</span>
+            </div> 
+        </div>
+            
+            <div class="form">
+                <div class="name" style="background-color:rgb(175, 175, 175)">
+                    <span>姓名</span>
+                </div>
+                <div class="text" style="background-color:rgb(216, 211, 211)">
+                    <input type="text" style=width:200px>
+                </div>
+            </div>
+            <div class="form">
+                    <div class="name" style="background-color:rgb(175, 175, 175)">
+                        <span>主旨</span>
                     </div>
-                </td>
-            </tr>
-        </table>
+                    <div class="text" style="background-color:rgb(216, 211, 211)">
+                        <span><input type="text" style=width:200px></span>
+                    </div>
+                </div>
+                <div class="form2">
+                        <div class="name1" style="background-color:rgb(175, 175, 175)">
+                            <span>內容</span>
+                        </div>
+                        <div class="text1" style="background-color:rgb(216, 211, 211)">
+                            <span><textarea style="width:550px;height:75px;resize: unset;overflow-y: scroll;overflow-x: hidden;"></textarea></span>
+                        </div>
+                    </div>
+
+                    <div class="form">
+           <div class="head " style="background-color:rgb(175, 175, 175)">
+                    
+            </div>
+            <div class="put" style="background-color:rgb(175, 175, 175)">
+                    <span><input type="submit" submit style=width:40px;height:30px;></span>
+            </div> 
+        </div>
     </form>
 </body>
 <script>
-    var i = 1;
-    var opvalue = 1.0;
-    var img = document.getElementById('img');
-    setInterval(() => {
-        img.style = "opacity:"+ opvalue +";";
-        if(opvalue <0){opvalue = 1;}
-        opvalue = opvalue - 0.02;
-    }, 100);
-    setInterval(() => {
-        opvalue=1;
-        img.src = "./router/assets/images/skill0" + i + ".jpg";
-        i = i + 1;
-        if(i>2){i=1;}
-    }, 3000);
+
 </script>
 </html>
