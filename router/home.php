@@ -8,51 +8,34 @@
     <title><?php echo $title;?></title>
 </head>
 <body style="margin: 0px;">
-    <form action="" method="POST" class="box">
-
-        <div class="form">
-           <div class="head " style="background-color:rgb(175, 175, 175)">
-                    
+    <div class ="box">
+        <div class="head">
+            <div class="name" >
+                <span style="color:brown;">WwW寫到</span>
             </div>
-            <div class="put" style="background-color:rgb(175, 175, 175)">
-                    <span>表達文章</span>
-            </div> 
+            <div class="write1">
+                <span style="color:gray;">留言主題:家除人為認知第19條</span>
+            </div>   
+            <div class="button">
+                <span><INPUT TYPE="submit" value="刪除"><INPUT TYPE="submit" value="編輯"><INPUT TYPE="submit" value="回覆"></<INPUT>
+            </div>               
         </div>
+        <div class="head1">
+            <div class="head1" >
+                <div class="name1" style= background-color:rgb(138,136,136);>
+                    <span>留言內容</span>
+                </div>
+                <div class="write" style= background-color:rgb(168,164,164);>
+                        -----1-------------------------------------------------------------------
+                        ----1-1------------------------------------------------------------------
+                        ---1-2-1----------------------------------------------------------------
+                        --1-3-3-1----------------------------------------------------------------
+                        -1-4-6-4-1-------------------------------------------------------------
+                    </div>
+            </div>
             
-            <div class="form">
-                <div class="name" style="background-color:rgb(175, 175, 175)">
-                    <span>姓名</span>
-                </div>
-                <div class="text" style="background-color:rgb(216, 211, 211)">
-                    <input type="text" style=width:200px>
-                </div>
-            </div>
-            <div class="form">
-                    <div class="name" style="background-color:rgb(175, 175, 175)">
-                        <span>主旨</span>
-                    </div>
-                    <div class="text" style="background-color:rgb(216, 211, 211)">
-                        <span><input type="text" style=width:200px></span>
-                    </div>
-                </div>
-                <div class="form2">
-                        <div class="name1" style="background-color:rgb(175, 175, 175)">
-                            <span>內容</span>
-                        </div>
-                        <div class="text1" style="background-color:rgb(216, 211, 211)">
-                            <span><textarea style="width:550px;height:75px;resize: unset;overflow-y: scroll;overflow-x: hidden;"></textarea></span>
-                        </div>
-                    </div>
-
-                    <div class="form">
-           <div class="head " style="background-color:rgb(175, 175, 175)">
-                    
-            </div>
-            <div class="put" style="background-color:rgb(175, 175, 175)">
-                    <span><input type="submit" submit style=width:40px;height:30px;></span>
-            </div> 
         </div>
-    </form>
+    </div>
 </body>
 <script>
 
