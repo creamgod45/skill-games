@@ -7,21 +7,49 @@
     <link rel="stylesheet" href="./router/assets/css/main.css" >
     <title><?php echo $title;?></title>
 </head>
-<body style="margin: 0px;">
-    <div id="ex">emmmm</div>
-        <button type="submit" onclick="f()">ok</button>
-    
+<body>
+    <div class="box" >
+        <div class="head">
+            會員註冊標單
+        </div>
+        <form action="" method="POST">
+            <div class="body">
+                <div class="name">
+                    <label>名子：</label>
+                    <input type="text" name="name">
+                    <span>不正確</span>
+                </div>
+                <div class="name">
+                    <label>帳號：</label>
+                    <input type="text" name="name">
+                    <span>不正確</span>
+                </div>
+                <div class="name">
+                    <label>密碼：</label>
+                    <input type="password" name="name">
+                    <span>不正確</span>
+                </div>
+                <div class="name">
+                    <label>再次輸入密碼：</label>
+                    <input type="password" name="name">
+                    <span>不正確</span>
+                </div>
+                <div class="name">
+                    <label>Email：</label>
+                    <input type="email" name="name">
+                    <span>不正確</span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="border">
+                    <input type="submit" name="submit" value="送出">
+                    <input type="reset" value="清除">
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 <script>
-    var i=0;
-    function f()
-    {
-        if(i%2==0)
-            document.getElementById("ex").innerHTML="我好可愛";
-        else
-            document.getElementById("ex").innerHTML="emmmm";
-        i+=1;
-    }
- 
+  
 </script>
 </html>

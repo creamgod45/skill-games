@@ -1,69 +1,71 @@
-.box
+body
 {
-    width:900px;
+    padding: 0;
+    margin: 0;
+    
+	display: flex;
+	min-height: 100vh;
+}
+.box{
+    padding: 1em 2em;
+    margin: auto;
+    width: 650px;
+    height: 300px;
+	box-sizing: border-box;
 }
 .head
 {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 800px;
-    height:40px;
+    text-align: center;
+    font-size: 32px;
+    background: #afa785;
 }
-.name
-{
-    width:800px;
-    height:40px;
+.body{
+    background: orange;
+    width: 100%;
+    padding-top: 8px;
 }
-.name1
-{
-    width:150px;
-    height:100px;
+.body .name{
+    width: 100%;
+    display: flex;
+    padding:8px 32px 0px 32px;
 }
-.write  
-{
-    width:400px;
-    height:100px;
+.body label {
+    width: 25%;
+    background:green;
+    text-align: center;
+    border: 1px black dashed;
+    margin: 0px 4px;
 }
-.write1  
-{
-    width:250px;
-    height:40px;
+.body input {
+    background: lightblue;
+    border: 1px black dashed;
+    margin: 0px 4px;
+    width: 50%;
 }
-.head1
-{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 800px;
-    height:100px;
+.body span {
+    color: red;
+    margin: 0px 4px;
+    font-weight: bold;
+    font-size: 20px;
 }
-.button
+.footer
 {
-    width:150px;
-    height:40px;
+    background: orange;
+    width: 100%;
+    margin: auto;
+    display: flex;
 }
-.name span
-{
-    padding:12px;
-    display:block;
-} 
-.write1 span
-{
-    padding:10px;
-    display:block;
+.footer .border {
+    padding-top: 8px;
+    display: table;
+    margin: auto;
+
 }
-.button span
+.footer .border input
 {
-    padding:10px;
-    display:block;
-}
-.name1 span
-{
-    padding:35px;
-    display:block;
-} 
-.ex
-{
-    
+    padding: 4px 24px 0px 24px;
+    font-size: 24px;
+    margin: 8px;
+    background:lightgreen;
+    border: 1px black dashed;
 }
