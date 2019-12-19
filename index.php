@@ -20,6 +20,10 @@
             $title = "登入";
             include "router/login.php";
             break;
+        case 'management':
+            $title = "圖形輪播管理模組";
+            include "router/management.php";
+            break;
         default:
             $title = "404 未找到網頁文件";
             include "router/error_not_found.php";
