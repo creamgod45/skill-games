@@ -16,6 +16,10 @@
             $title = "圖片輪播";
             include "router/banner.php";
             break;
+        case 'login':
+            $title = "登入";
+            include "router/login.php";
+            break;
         default:
             $title = "404 未找到網頁文件";
             include "router/error_not_found.php";
