@@ -28,6 +28,10 @@
             $title = "會員管理模組";
             include "router/member.php";
             break;
+        case 'design':
+            $title = "網頁版面設計";
+            include "router/design.php";
+            break;
         default:
             $title = "404 未找到網頁文件";
             include "router/error_not_found.php";
