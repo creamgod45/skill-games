@@ -15,9 +15,10 @@ body
 }
 .box .head
 {
+    border: 1px black solid;
     text-align: center;
     background-color: lightskyblue;
-    width: 100%;
+    width: 99.75%;
     height: 30px;
     font-size: 20px;
 }
@@ -31,6 +32,7 @@ body
 }
 .box .bog .name
 {
+    border: 1px black solid;
     width:100px;
     height: 30px;
     padding: 8px 0px 0px 80px;
@@ -38,6 +40,7 @@ body
 }
 .box .bog .text
 {
+    border: 1px black solid;
     padding:8px 0px 0px 10px ;
     background-color: lightsteelblue;
     height: 30px;
@@ -45,10 +48,12 @@ body
 }
 .box .bog .text text
 {
+    border: 1px black solid;
     width: 200px;
 }
 .box .bog .name1
 {
+    border: 1px black solid;
     width:100px;
     height: 30px;
     padding: 8px 0px 0px 80px;
@@ -56,33 +61,39 @@ body
 }
 .box .bog .name2
 {
+    border: 1px black solid;
     width:100px;
     height: 30px;
-    padding: 8px 0px 0px 80px;
+    padding: 10px 0px 0px 80px;
     background-color:gainsboro;
-}
-.box .bog1 .name2 textarea
-{
-    margin: 2px;
-    height: 100px;
 }
 .box .bog1 .name2
 {
+    border: 1px black solid;
     width:100px;
-    height: 30px;
-    padding: 8px 0px 0px 80px;
+    height: 70px;
+    padding: 50px 0px 0px 80px;
     background-color:gainsboro;
 } 
 .box .bog1 .text1
 {
-    width:560px;
+    border: 1px black solid;
+    width:552px;
+    padding: 4px;
     background-color:lightsteelblue;
 } 
 .box .footer
 {
+    border: 1px black solid;
     text-align: center;
     background-color: lightskyblue;
-    width: 100%;
+    width: 99.75%;
     height: 30px;
     font-size: 20px;
+}
+.bog1 .text1 textarea
+{
+    overflow-y: scroll;
+    overflow-x: unset;
+    resize: unset;
 }
