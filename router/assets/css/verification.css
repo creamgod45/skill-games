@@ -13,3 +13,39 @@ body
     height:600px;
     box-sizing: border-box;
 }
+.box .head
+{
+    height:35px;
+    font-size:20px;
+    padding-top:10px;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+.box .body
+{
+    display:flex;
+    background-color: aliceblue;
+}
+.box .body .name
+{
+    width:25%;
+    height:25px;
+    padding:6px;
+    background-color: lightslategrey;
+    text-align: center;
+    font-size:20px;
+}
+.box .body .text
+{
+    padding-top:3px;
+}
+.box .body .check
+{
+    padding:5px 0px 0px 15px ;
+    font-size:20px;
+}
+.body .footer 
+{
+    height:25px;
+    padding:0px 0px 0px 320px;
+}
