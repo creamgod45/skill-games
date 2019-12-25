@@ -1,0 +1,16 @@
+.box
+{
+    width:800px;
+}
+.box.head
+{
+    padding:4px;
+}
+.box .picture
+{
+    width:200px;
+    height:110px;
+    background-color: chocolate;
+    font-size: 30px;
+    padding-top:70px;
+}
