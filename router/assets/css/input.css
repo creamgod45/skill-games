@@ -1,0 +1,51 @@
+body
+{
+    padding: 0;
+    margin: 0;  
+	display: flex;
+    min-height: 100vh;
+}
+.box
+{
+    padding: 1em 2em;
+    margin: auto;
+    width: 800px;
+    height:800px;
+    box-sizing: border-box;
+}
+.bog
+{
+    border-style:solid;
+    
+}
+.box .head
+{
+    background-color: cornflowerblue;
+    width:100%;
+    padding-top:5px;
+    font-size:20px;
+    height:30px;
+    text-align: center;
+}
+.box .body
+{
+    border-style: solid;
+    display: flex;
+}
+.box .body .name
+{
+    background-color: darkgrey;
+    width:12%;
+    padding-left:30px;
+    padding-top:8px;
+    height:26px;
+}
+.box .body .put
+{
+    padding-top:8px;
+}
+.box .footer
+{
+    width:100%;
+    background-color: cornflowerblue;
+}
