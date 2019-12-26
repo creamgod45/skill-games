@@ -1,0 +1,95 @@
+body
+{
+    padding: 0;
+    margin: 0;  
+	display: flex;
+    min-height: 100vh;
+}
+.box
+{
+    padding: 1em 2em;
+    margin: auto;
+    width: 800px;
+    height:800px;
+    box-sizing: border-box;
+}
+.box .body
+{
+    display:flex;
+    width:100%;
+    height:800px;
+}
+.box .body img
+{
+    padding:150px 100px 150px 100px;
+    background-color: chocolate;
+    font-size: 30px;
+}
+.box .body .right
+{
+    width:50%;
+    height:170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .body .right .head
+{
+    width:100%;
+    height:20px;
+    display:flex;
+}
+.box .body .right .name
+{
+    width:100%;
+    height:20px;
+    display:flex;
+}
+.box .body .right .name .bog1
+{
+    margin:2px;
+    height:20px;
+    background-color: hotpink;
+    padding:0px 105px 0px 0px;
+}
+.box .body .right .name .bog2
+{
+    margin:2px;
+    height:20px;
+    background-color: hotpink;
+    padding:0px 155px 0px 0px;
+}
+.box .body .right .name1
+{
+    width:100%;
+    height:20px;
+    display:flex;
+}
+.box .body .right .name1 .bog3
+{
+    margin:2px;
+    height:20px;
+    padding:0px 72.5px 0px 72.5px;
+}
+.box .body .right .name1 .bog4
+{
+    color:red;
+    margin:2px;
+    height:20px;
+    padding:0px 72.5px 0px 72.5px;
+}
+.box .body .right .name2
+{
+    background-color: hotpink;
+    width:99.5%;
+    height:20px;
+}
+.box .body .right .name3
+{
+    width:100%;
+    height:10px;
+}
+.box .body .right .name4
+{
+    width:100%;
+    height:5px;
+}
