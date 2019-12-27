@@ -1,0 +1,114 @@
+body
+{
+    margin:0px;
+    padding:0px;
+}
+.box
+{
+    width:1536px;
+}
+.box .head
+{
+    width:100%;
+    display:flex;
+}
+.box .head .label1
+{
+    width: 90%;
+    height:70px;
+    text-align:center;
+    padding-top:30px;
+    font-size:30px;
+    background-color: coral;
+    border-style:solid;
+}
+.box .head .label2
+{
+    width: 8.5%;
+    height:50px;
+    font-size:30px;
+    padding:30px 5px 20px 20px;
+    background-color:gray;
+    border-top:solid;
+    border-right:solid;
+    border-bottom:solid;
+}
+.box .body
+{
+    width:100%;
+    display:flex;
+}
+.box .body .left
+{
+    width:20%;
+    height:615px;
+    background-color: coral;
+    padding-top:0px;
+    border-left:solid;
+    border-right:solid;
+    border-bottom:solid;
+}
+.box .body .left .bog
+{
+    width:80%;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:0px;
+    padding-left:20px;
+}
+.box .body .left .bog .picture
+{
+    width:100%;
+    height:90px;
+    padding-bottom: 0px;
+    padding-top:10px;
+}
+.box .body .left .bog .picture img
+{
+    width:100%;
+    height:90px;
+    padding-bottom:0px;
+}
+.box .body .left .bog .name
+{
+    width:100%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.box .body .right
+{
+    width:80%;
+    height:615px;
+    background-color: coral;
+    border-right:solid;
+    border-bottom:solid;    
+}
+.box .body .right .bog1
+{
+    background-color: cornflowerblue;
+    width:90%;
+    border-radius:30px;
+    height:175px;
+    margin:15px 25px 25px 25px;
+    display:flex;
+}
+.box .body .right .bog1 .picture1
+{
+    width:20%;
+    height:130px;
+}
+.box .body .right .bog1 .picture1 img
+{
+    border-radius:30px;
+    width:100%;
+    height:130px;
+    padding:20px 10px 10px 20px;
+}
+.box .body .right .bog1 .input
+{
+    border-style: solid;
+    font-size:27px;
+    width:800px;
+    height:130px;
+    margin:20px 20px 20px 40px;
+}
