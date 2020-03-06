@@ -1,0 +1,143 @@
+body
+{
+    margin-top:0px;
+    margin-left:0px;
+}
+body .body
+{
+    width:100vw;
+    height:100vh;
+    background-color: gray;
+    display:flex;
+}
+body .body .left
+{
+    width:50%;
+    height:100%;
+    border-right:solid;
+    display:flex;
+    flex-wrap: wrap;
+}
+body .body .left .box1
+{
+    width:100%;
+    height:1%;
+}
+body .body .left .box1 .check
+{
+    font-size:25px;
+    margin-top:5%;
+    margin-left:35%;
+}
+body .body .left .box2
+{
+    width:100%;
+    height:70%;
+}
+body .body .left .box2 .bug1
+{
+    width:85%;
+    height:100%;
+    margin-left:5%;
+    border-top:solid;
+    border-left:solid;
+    border-right:solid;
+    border-bottom:solid;
+    display: flex;
+}
+body .body .left .box2 .bug1 .bug2
+{
+    display: flex;
+}
+body .body .left .box2 .bug1 .picture1
+{
+    width:33%;
+    height:30%;
+    border-right:solid;
+    border-bottom: solid;
+}
+body .body .left .box2 .bug1 .picture1 img
+{
+    width:100%;
+    height:100%;
+}
+body .body .left .box2 .bug1 .text1
+{
+    width:34%;
+    height:30%;
+    border-right: solid;
+    border-bottom: solid;
+}
+body .body .left .box2 .bug1 .text1 .text2
+{
+    font-size: 200%;
+    margin-top:20%;
+    margin-left:20%;
+}
+body .body .left .box2 .bug1 .name1
+{
+    width:33%;
+    height:30%;
+    border-bottom: solid;
+}
+body .body .left .box2 .bug1 .name2
+{
+    width:100%;
+    height:20%;
+    font-size:20px;
+    margin-top:25%;
+    margin-left:20%;
+}
+body .body .left .box2 .bug1 .name3
+{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    margin-top:10%;
+    margin-left:35%;
+}
+body .body .left .box3
+{
+    width:100%;
+    height:1%;
+}
+body .body .right
+{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+body .body .right .box4
+{
+    width:100%;
+    height:1%;
+}
+body .body .right .box4 .check2
+{
+    width:100%;
+    height:100%;
+    font-size:25px;
+    margin-top:5%;
+    margin-left:35%;
+}
+body .body .right .box5
+{
+    width:100%;
+    height:70%;
+}
+body .body .right .box5 .bug2
+{
+    width:85%;
+    height:100%;
+    margin-left:5%;
+    border-top:solid;
+    border-left:solid;
+    border-right:solid;
+    border-bottom:solid;
+}
+body .body .right .box6
+{
+    width:100%;
+    height:1%;
+}

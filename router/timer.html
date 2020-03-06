@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="C:\xampp\htdocs\skill-games\router\assets\css\timer.css" >
+    <title class="">計數器</title>
+</head>
+    <body>
+        <div class="box">
+            <div id="one" style="width:80px; height:80px; background-color: bisque; margin-top:10px; margin-left:10px;">
+                <img src="C:\xampp\htdocs\skill-games\router\assets\images\0.png" style="width:80px; height:80px" >
+            </div>
+            <div id="two" style="width:80px; height:80px; background-color: bisque; margin-top:10px; margin-left:10px;">
+                <img src="C:\xampp\htdocs\skill-games\router\assets\images\0.png" style="width:80px; height:80px" >
+            </div>
+            <div id="three" style="width:80px; height:80px; background-color: bisque; margin-top:10px; margin-left:10px;">
+                <img src="C:\xampp\htdocs\skill-games\router\assets\images\0.png" style="width:80px; height:80px" >
+            </div>
+            <div id="four" style="width:80px; height:80px; background-color: bisque; margin-top:10px; margin-left:10px;">
+                <img src="C:\xampp\htdocs\skill-games\router\assets\images\0.png" style="width:80px; height:80px" >
+            </div>
+            <div id="fine" style="width:80px; height:80px; background-color: bisque; margin-top:10px; margin-left:10px;">
+                <img src="C:\xampp\htdocs\skill-games\router\assets\images\0.png" style="width:80px; height:80px" >
+            </div>
+        </div>
+        <script>
+            var i=0;
+            var a=new Array();
+            a[0]="./assets/images/0.png";
+            a[1]="./assets/images/1.png";
+            a[2]="./assets/images/2.png";
+            a[3]="./assets/images/3.png";
+            a[4]="./assets/images/4.png";
+            a[5]="./assets/images/5.png";
+            a[6]="./assets/images/6.png";
+            a[7]="./assets/images/7.png";
+            a[8]="./assets/images/8.png";
+            a[9]="./assets/images/9.png";  
+            document.getElementById('one').src=a[8];
+            /* setInterval(function (){ 
+                if(i<10)
+                {
+                    document.getElementById("one").src=a[i];    
+                    console.log("in:" + 1 +a[i]);
+                }  
+                else if(i>=10&&i<=99)
+                {
+                    document.getElementById("one").src=a[i%10];
+                    document.getElementById("two").src=a[i/10];    
+                    console.log("in:" + 2);
+                }
+                else if(i>=100&&i<=999)
+                {
+                    document.getElementById("one").src=a[(i-((i/100)*100))%10];
+                    document.getElementById("two").src=a[(((i-i/100*100)/10))];
+                    document.getElementById("three").src=a[i/100];    
+                    console.log("in:" + 3);
+                }
+                else if(i>=1000&&i<=9999)
+                {
+                    document.getElementById("one").src=a[i%10];
+                    document.getElementById("two").src=a[i/10];
+                    document.getElementById("three").src=a[i%10];
+                    document.getElementById("four").src=a[i/10];    
+                    console.log("in:" + 4);
+                }
+                else if(i>=10000,i<=99999)
+                {
+                    document.getElementById("one").src=a[i%10];
+                    document.getElementById("two").src=a[i/10];
+                    document.getElementById("three").src=a[i%10];
+                    document.getElementById("four").src=a[i/10];
+                    document.getElementById("five").src=a[i%10];    
+                    console.log("in:" + 5);
+                }
+                i=i+1;
+                console.log(i);
+            },1000); */
+        </script>
+    </body>
+</html>

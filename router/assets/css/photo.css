@@ -1,0 +1,32 @@
+body
+{
+    margin-top:0px;
+    margin-left:0px;
+    width:500px;
+    height:600px;
+}
+body .box
+{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body .box .picture
+{
+    height:100%;
+    width:100%;
+    border-left: solid;
+    border-right: solid;
+    border-bottom:solid;
+    border-top: solid;
+    margin:5px;
+}
+body .box .button input
+{
+    width:100px;
+    height:100px;
+    margin-top:10px;
+    margin-left:200px;
+}

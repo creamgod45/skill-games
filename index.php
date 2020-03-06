@@ -9,7 +9,7 @@
     $REQUEST = $REQUEST[$layer];
     switch ($REQUEST) {
         case '': 
-            $title = "首頁";
+            $title = "首頁";    
             include "router/home.php";
             break;
         case 'banner':
